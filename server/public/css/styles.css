@@ -1,0 +1,47 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: darkolivegreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 22px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  border-color: gold;
+}
+
+input:focus {
+  outline: none;
+  border-color: goldenrod;
+}
+
+button {
+  padding: 8px 14px;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: goldenrod;
+}
+
+button:hover {
+  background-color: gold;
+}
+
+h4 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #222;
+}

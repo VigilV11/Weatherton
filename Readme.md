@@ -1,10 +1,7 @@
-This is a node.js command line app.
-It makes use of promises and async-await synatx to fetch weather data from an external URL.
+This is a Node-Express app that fetches weather data based on the location entered by the user.
 
-Add an API key from https://weatherstack.com to `config.example.js` for the program to work.
+src folder (inside server) contains the server code. The main file is app.js which implements an Express server.
 
-Command: `node app.js place_name`
+public folder (inside server) contains the client side code.
 
-Example 1: `node app.js 'london'`
-
-Example 2: `node app.js 'new york'`
+Command to run the Node app: `node server/src/app.js`
